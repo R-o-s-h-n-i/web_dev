@@ -1,0 +1,59 @@
+#navbar{
+	color: white;
+	background-color: black;
+	display: flex;
+}
+
+#navbar p{
+	padding: 15px 20px 15px 20px;
+	height: 100%;
+	margin: 0px;
+	border: 2px solid black;
+}
+#navbar p:hover{
+	background-color: white;
+	color: black;
+	border: 2px solid yellow;
+
+}
+
+.Recipe{
+	background-color: black;
+	color: yellow;
+	border-radius: 10px;
+	text-align: center;
+	height: auto;
+	width: 30%;
+	border: 2px solid black;
+	display: inline-block;
+	margin: 15px 10px 15px 10px;
+	padding-bottom: 20px;
+}
+
+.img img{
+	max-width: 90%;
+	min-width: 85%;
+	height: 250px;
+	background-size: cover;
+	margin: 0px 15px 0px 15px;
+}
+
+.container{
+	padding-top: 15px;
+}
+
+.img a{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	background-image: url("bg2.jpg");
+	background-size: cover;
+}
+
+h1{
+	color: beige;
+	text-align: center;
+	font-family: "Lucida Console", Courier, monospace;
+}
